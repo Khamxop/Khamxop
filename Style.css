@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+header{
+    background-image: url("https://assets.buzzmag.co.uk/uploads/2025/10/Taylor-Swift.jpg");
+    background-position: bottom top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    position: relative;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.50);
+}
+
+
+input:focus,button:focus{
+    outline: none;
+}
+
+form{
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
+
+form input{
+    border: 0;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 15px 30px;
+    width: 100%;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
+
+form button{
+    background-color: orange;
+    border: 0;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 12px 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+header::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+header *{
+    z-index: 1;
+}
+
+header h1{
+    margin: 0 0 30px;
+}
