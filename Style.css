@@ -90,3 +90,58 @@ header *{
 header h1{
     margin: 0 0 30px;
 }
+
+ul.song-list{
+    list-style: none;
+    padding: 0;
+
+}
+
+.btn{
+    background-color: orange;
+    border: 0;
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 2px 5px;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.btn:hover{
+    background-color: darkorange;
+}   
+
+ul.song-list li{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin-bottom: 10px 0px;
+}
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: 50px auto;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.more .btn{
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    font-size: 16px;
+    padding: 2px 5px;
+    font-family: "Noto Sans Lao", sans-serif;
+    font-optical-sizing: auto;
+}
